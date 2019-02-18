@@ -43,16 +43,13 @@ int printNumberOfLegs(Animal animal)
 	switch (animal)
 	{
 	case PIG:
-		return 4;
-	case CHICKEN:
-		return 2;
 	case GOAT:
-		return 4;
 	case CAT:
-		return 4;
 	case DOG:
 		return 4;
+
 	case OSTRICH:
+	case CHICKEN:
 		return 2;
 	
 	default:
